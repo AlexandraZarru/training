@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2>Class 1</h2>
+
+    <p id="demo1">Javascript can change HTML content to</p>
+
+    <button
+      type="button"
+      onclick="document.getElementById('demo1').innerHTML = ' Other content.'"
+    >
+      Click
+    </button>
+
+    <h2>Class2</h2>
+
+    <p>Change html attribute values.</p>
+    <p>
+      In this case JavaScript changes the value of the src attribute of an
+      image.
+    </p>
+    <button onclick="document.getElementById('myImage').src='cat_sleep.png'">
+      zzzzz
+    </button>
+    <img id="myImage" src="cat.png" style="width: 300px" />
+    <button onclick="document.getElementById('myImage').src='cat.png'">
+      Good morning
+    </button>
+
+    <h2>Class 3</h2>
+    <p id="demo">Change HTML styles (CSS)</p>
+
+    <button
+      type="button"
+      onclick="document.getElementById('demo').style.fontSize='35px'"
+    >
+      Click
+    </button>
+
+    <h2>Class 4</h2>
+    <p id="demo2">Hide HTML elements</p>
+
+    <button
+      type="button"
+      onclick="document.getElementById('demo2').style.display='none'"
+    >
+      Click
+    </button>
+
+    <h2>Class 5</h2>
+    <h4>Class 5.1</h4>
+    <p>Show html element</p>
+    <p id="demo3" style="display: none">Hello!</p>
+    <button
+      type="button"
+      onclick="document.getElementById('demo3').style.display='block'"
+    >
+      Click
+    </button>
+
+    <h4>Class 5.2</h4>
+    <p>image</p>
+    <button
+      type="button"
+      onclick="document.getElementById('demo4').style.display='block'"
+    >
+      Show image
+    </button>
+    <img id="demo4" style="display: none; height: 200px" src="cat.png" />
+    <button
+      type="button"
+      onclick="document.getElementById('demo4').style.display='none'"
+    >
+      Hide image
+    </button>
+  </body>
+</html>
