@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2>Exercise 1</h2>
+    <h1>My Web Page</h1>
+
+    <p id="demo8"></p>
+
+    <script>
+      document.getElementById("demo8").innerHTML =
+        "<h2>Hello World innerHTML</h2>";
+    </script>
+
+    <h2>Exercise 2</h2>
+    <h1>My Web Page</h1>
+
+    <p id="demo9"></p>
+
+    <script>
+      document.getElementById("demo9").innerText = "Hello World innerText";
+    </script>
+    <h2>Exercise 3</h2>
+    <h2>My First Web Page</h2>
+    <p>My first paragraph.</p>
+
+    <p>
+      Never call document.write after the document has finished loading. It will
+      overwrite the whole document.
+    </p>
+    <script>
+      document.write(5 + 7);
+    </script>
+
+    <h2>Exercise 4</h2>
+    <h1>My First Web Page</h1>
+    <p>Window alert script</p>
+
+    <script>
+      window.alert("alert script");
+    </script>
+
+    <h2>Exercise 5</h2>
+    <h2>Activate Debugging</h2>
+
+    <p>F12 on your keyboard will activate debugging.</p>
+    <p>Then select "Console" in the debugger menu.</p>
+    <p>There will be 23</p>
+
+    <script>
+      console.log(12 + 11);
+    </script>
+
+    <h2>Exercise 6</h2>
+    <h2>The window.print() Method</h2>
+
+    <p>Click the button to print the current page.</p>
+
+    <button onclick="window.print()">Print this page</button>
+  </body>
+</html>
